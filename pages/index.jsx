@@ -18,7 +18,6 @@ export const getStaticProps = async () => {
 
     return{
         props : {
-            posts,
             bannerData
         }
     }
