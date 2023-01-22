@@ -11,7 +11,7 @@ const BannerContainer = ({sectionStyle,bannerPosts}) => {
         <Card
             cardComponent={{
                 path : bannerPosts[0].link,
-                style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[340px] p-3 w-full lg:w-[555px] lg:h-[728px] lg:p-4 lg:gap-y-4 lg:rounded-[20px]',
+                style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[340px] p-3 w-full lg:w-[554px] lg:h-[728px] lg:p-4 lg:gap-y-4 lg:rounded-[20px]',
                 imgComponent : {
                     containerStyle : 'w-full flex items-center justify-center rounded-[12px] shadow-md h-[212px] lg:h-[398px] lg:rounded-[16px]',
                     style : 'w-1/2 aspect-auto object-cover',
