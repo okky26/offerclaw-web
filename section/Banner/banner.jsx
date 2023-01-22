@@ -27,7 +27,7 @@ const Banner = ({data}) => {
       />
       <BannerContainer
         bannerPosts={data}
-        sectionStyle={'w-full flex flex-col items-center justify-between gap-y-3 lg:flex-row lg:gap-x-6 lg:px-32 lg:pt-10'}
+        sectionStyle={'w-full flex flex-col items-center justify-between gap-y-3 lg:flex-row lg:gap-x-6 lg:px-28 lg:pt-10'}
       />
     </article>
   )
