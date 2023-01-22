@@ -1,7 +1,7 @@
 
-const Category = ({categoryComponent,content,index}) => {
+const Category = ({categoryComponent,content}) => {
   return (
-    <div className={categoryComponent.containerStyle}>
+    <div key={Math.random()} className={categoryComponent.containerStyle}>
       <h3 className={categoryComponent.style}>{content}</h3>
     </div>
   )
