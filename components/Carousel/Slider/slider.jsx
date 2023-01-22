@@ -13,7 +13,7 @@ const Slider = (data) => {
       <Card
         cardComponent={{
             path : post[1].link,
-            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[262px] lg:h-[451px] lg:p-4',
+            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[230px] lg:h-[451px] lg:p-4',
             imgComponent : {
                 containerStyle : 'w-full flex items-center justify-center rounded-[12px] shadow-md h-[190px] lg:h-[230px]',
                 style : 'w-1/2 aspect-auto object-cover',
@@ -49,7 +49,7 @@ const Slider = (data) => {
       <Card
         cardComponent={{
             path : post[2].link,
-            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[262px] lg:h-[451px] lg:p-4 lg:col-start-4 lg:row-start-1',
+            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[230px] lg:h-[451px] lg:p-4 lg:col-start-2 lg:row-start-1',
             imgComponent : {
                 containerStyle : 'w-full flex items-center justify-center rounded-[12px] shadow-md h-[190px] lg:h-[230px]',
                 style : 'w-1/2 aspect-auto object-cover',
@@ -85,7 +85,7 @@ const Slider = (data) => {
       <Card
         cardComponent={{
             path : post[3].link,
-            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[555px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[110px] lg:gap-x-6',
+            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[473px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[110px] lg:gap-x-6',
             imgComponent : {
                 containerStyle : 'w-full flex items-center justify-center rounded-[12px] shadow-md h-[190px] lg:h-[223px] lg:w-[223px]',
                 style : 'w-1/2 aspect-auto object-cover',
@@ -102,17 +102,17 @@ const Slider = (data) => {
                 },
                 titleComponent : {
                     containerStyle : 'w-full flex items-center justify-start',
-                    style : 'w-fit font-sans-serif font-bold capitalize text-neutral-800 text-sm lg:text-xl',
+                    style : 'w-fit font-sans-serif font-bold capitalize text-neutral-800 text-sm lg:text-lg',
                     content : post[3].title.rendered
                 },
                 excerptComponent : {
                     containerStyle : 'items-center justify-start hidden lg:flex',
-                    style : 'font-sans-serif text-lg text-neutral-500/50',
+                    style : 'font-sans-serif text-sm text-neutral-500/50',
                     content : post[3].excerpt.rendered
                 },
                 dateComponent : {
                     containerStyle : 'w-full flex items-center justify-start gap-x-2 mt-auto',
-                    style : 'font-sans-serif font-light text-xs',
+                    style : 'font-sans-serif font-light text-md',
                     content : post[3].date
                 }
             }
