@@ -112,7 +112,7 @@ const Slider = (data) => {
                 },
                 dateComponent : {
                     containerStyle : 'w-full flex items-center justify-start gap-x-2 mt-auto',
-                    style : 'font-sans-serif font-light text-md',
+                    style : 'font-sans-serif font-light text-sm',
                     content : post[3].date
                 }
             }
