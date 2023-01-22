@@ -6,7 +6,7 @@ import { faFire } from "@fortawesome/free-solid-svg-icons";
 const Banner = ({data}) => {
   
   return (
-    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6 lg:px-0">
+    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-8 pt-6 lg:px-0">
       <CategoryNav
         iconMobile={
           <FontAwesomeIcon
