@@ -6,7 +6,7 @@ import { faFire } from "@fortawesome/free-solid-svg-icons";
 const Banner = ({data}) => {
   
   return (
-    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6">
+    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6 px">
       <CategoryNav
         iconMobile={
           <FontAwesomeIcon
@@ -27,7 +27,7 @@ const Banner = ({data}) => {
       />
       <BannerContainer
         bannerPosts={data}
-        sectionStyle={'w-full flex flex-col items-center justify-between gap-y-3 lg:flex-row lg:gap-x-6 lg:px-20 lg:pt-10'}
+        sectionStyle={'w-full flex flex-col items-center justify-between gap-y-3 lg:flex-row lg:gap-x-6 lg:px-28 lg:pt-10'}
       />
     </article>
   )
