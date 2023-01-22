@@ -1,5 +1,4 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav";
-import CardContainer from "@/components/Cards/CardContainer/cardContainer";
 import BannerContainer from "@/components/CardContainer/bannerContainer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFire } from "@fortawesome/free-solid-svg-icons";
