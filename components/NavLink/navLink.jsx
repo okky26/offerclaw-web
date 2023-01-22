@@ -4,7 +4,7 @@ import { faHeadphones, faUser, faHouse, faBlender, faCampground, faDog, faRandom
 
 const NavLink = () => {
     return(
-        <ul className="w-full h-[75vh] flex flex-col items-center justify-between lg:h-[15vh] lg:flex-row lg:px-6">
+        <ul className="w-full h-[75vh] flex flex-col items-center justify-between lg:h-[10vh] lg:flex-row lg:px-6">
             <li className="w-3/5 h-full flex items-center justify-center gap-x-3 lg:w-auto lg:flex-shrink">
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
