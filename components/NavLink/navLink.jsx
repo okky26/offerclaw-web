@@ -9,13 +9,13 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faHeadphones}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
                 <Link
                     href={'/Categories/Tech'}
-                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-xl'
+                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-lg'
                 >
                     Tech
                 </Link>
@@ -24,7 +24,7 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faUser}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
@@ -39,13 +39,13 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faBlender}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
                 <Link
                     href={'/Categories/Appliances'}
-                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-xl'
+                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-lg'
                 >
                     Appliances
                 </Link>
@@ -54,7 +54,7 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faHouse}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
@@ -69,13 +69,13 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faCampground}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
                 <Link
                     href={'/Categories/Outdoor'}
-                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-xl'
+                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-lg'
                 >
                     Outdoor
                 </Link>
@@ -84,13 +84,13 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faDog}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
                 <Link
                     href={'/Categories/Pets'}
-                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-xl'
+                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-lg'
                 >
                     pets
                 </Link>
@@ -99,13 +99,13 @@ const NavLink = () => {
                 <div className="w-10 h-10 flex items-center justify-center lg:w-5 lg:h-5">
                     <FontAwesomeIcon
                         icon={faRandom}
-                        size='xl'
+                        size='sm'
                         color="black"
                     />
                 </div>
                 <Link
                     href={'/Categories/Other'}
-                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-xl'
+                    className='font-sans-serif font-bold text-2xl text-neutral-800 capitalize lg:text-lg'
                 >
                     other
                 </Link>
