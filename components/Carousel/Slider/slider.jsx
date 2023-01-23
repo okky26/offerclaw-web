@@ -6,8 +6,6 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 const Slider = (data) => {
   const post = data.postData
 
-  console.log(post)
-
   return (
     <div className="w-full grid grid-flow-col auto-cols-max gap-4 overflow-scroll place-items-center lg:grid-cols-2 lg:grid-rows-2 lg:h-[728px] lg:gap-0 lg:gap-x-3 lg:place-items-stretch lg:overflow-hidden item">
       <Card
@@ -96,7 +94,7 @@ const Slider = (data) => {
                 categoryContainer : {
                     content : post[3]._embedded['wp:term'][0],
                     categoryComponent : {
-                        containerStyle : '"w-full flex items-center justify-start',
+                        containerStyle : 'flex items-center justify-start',
                         style : 'bg-primary-cat font-sans-serif text-neutral-700 rounded-[6px] capitalize shadow-md px-3 py-[0.5rem] text-xs lg:px-4 lg:py-1 lg:text-md'
                     }
                 },

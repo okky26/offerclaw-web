@@ -10,7 +10,9 @@ const Layout = ({children}) => {
             <main className="bg-primary">
                 {children}
             </main>
-            <Footer/>
+            <footer>
+                <Footer/>
+            </footer>
         </>
     )
 }

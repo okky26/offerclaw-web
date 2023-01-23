@@ -1,7 +1,7 @@
 
 const IconTextBox = ({iconMobile, iconDesktop, category}) => {
   return (
-    <div className="w-1/2 flex items-center justify-start gap-x-2 lg:gap-x-12">
+    <div className="w-3/4 flex items-center justify-start gap-x-2 lg:gap-x-12">
         <div className="h-full flex items-center justify-center p-1 bg-neomorphism rounded-[14px] shadow-lg lg:hidden">
             {iconMobile}
         </div>
