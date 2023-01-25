@@ -4,13 +4,12 @@ import Link from "next/link"
 
 
 const Card = ({cardComponent,buttonComponent,key}) => {
-  
 
   return (
     <Link
         key={key}
         href={cardComponent.path}
-        className={cardComponent.style}
+        className={`${cardComponent.style}`}
     >
         <ImgComponent
           imgComponent={cardComponent.imgComponent}

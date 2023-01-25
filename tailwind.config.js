@@ -20,7 +20,7 @@ module.exports = {
       },
       backgroundImage : {
         'header' : 'url(../public/Img/Header.png)',
-        'footer' : 'url(../public/Img/Footer.png)',
+        'footer' : 'url(../public/Img/footer2.png)',
         'neomorphism' : 'linear-gradient(145deg, #f0f0f0, #cacaca)'
       },
       animation : {

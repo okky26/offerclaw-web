@@ -3,13 +3,13 @@ import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 const Date = ({dateComponent}) => {
   return (
-    <div className={dateComponent.containerStyle}>
+    <div className={`${dateComponent.containerStyle}`}>
       <FontAwesomeIcon
         icon={faCalendar}
         size='sm'
         color="#787878"
       />
-       <h3 className={dateComponent.style}>{dateComponent.content}</h3>
+       <h3 className={`${dateComponent.style}`}>{dateComponent.content}</h3>
     </div>
   )
 }

@@ -11,11 +11,11 @@ const SearchBar = () => {
                     name="search" 
                     id="search" 
                     placeholder="search"
-                    className="w-full h-12 bg-neutral-50/75 text-neutral-800 backdrop-blur-lg rounded-[16px] pl-4 capitalize lg:w-1/2"    
+                    className="w-full h-12 bg-neutral-50/75 text-neutral-800 backdrop-blur-lg rounded-[16px] pl-4 capitalize lg:w-[555px]"    
                 />
                 <Button
                     type={'submit'}
-                    style={'w-8 h-8 absolute right-[5%] lg:right-[25%]'}
+                    style={'w-8 h-8 absolute right-[5%] lg:right-[32%]'}
                     content={
                         <FontAwesomeIcon
                             icon={faMagnifyingGlass}

@@ -6,7 +6,7 @@ import Title from "./Title/title";
 
 const ContentArea = ({contentComponent,buttonComponent}) => {
   return (
-    <div className={contentComponent.containerStyle}>
+    <div className={`${contentComponent.containerStyle}`}>
       <CategoryBox
         categoryContainer={contentComponent.categoryContainer}
       />
