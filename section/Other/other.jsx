@@ -6,7 +6,7 @@ import { faRandom } from "@fortawesome/free-solid-svg-icons";
 const Other = ({data}) => {
 
   return (
-    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6 pb-6 lg:px-0 lg:gap-y-10">
+    <article className="w-full flex flex-col items-center justify-center gap-y-4 lg:gap-y-10">
         <CategoryNav
             iconMobile={
               <FontAwesomeIcon
@@ -27,7 +27,7 @@ const Other = ({data}) => {
         />
         <SectionContainer 
             dataPosts={data}
-            sectionStyle={'flex flex-col gap-y-3 lg:flex-row lg:justify-center lg:items-center lg:gap-x-6'} 
+            sectionStyle={'flex flex-col gap-y-3 lg:flex-row lg:justify-center lg:items-center lg:gap-x-6 lg:px-[150px]'} 
         />
     </article>
   )

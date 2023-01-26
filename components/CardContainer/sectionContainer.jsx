@@ -5,7 +5,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const SectionContainer = ({sectionStyle, dataPosts}) => {
   return (
-    <section className={`${sectionStyle} lg:px-[150px]`}>
+    <section className={`${sectionStyle}`}>
         <Card
             cardComponent={{
                 path : dataPosts[0].link,

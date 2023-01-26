@@ -7,7 +7,7 @@ const Slider = (data) => {
   const post = data.postData
 
   return (
-    <div className="w-full grid grid-flow-col auto-cols-max gap-4 overflow-scroll place-items-center lg:grid-cols-2 lg:grid-rows-2 lg:h-[728px] lg:gap-0 lg:gap-x-3 lg:place-items-stretch lg:overflow-hidden item">
+    <div className="w-full grid grid-flow-col auto-cols-max gap-4 overflow-scroll place-items-center lg:grid-cols-2 lg:grid-rows-2 lg:h-[728px] lg:gap-x-3 lg:place-items-stretch lg:overflow-hidden item">
       <Card
         cardComponent={{
             path : post[1].link,

@@ -1,12 +1,13 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav";
 import BannerContainer from "@/components/CardContainer/bannerContainer";
+import SectionContainer from "@/components/CardContainer/sectionContainer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFire } from "@fortawesome/free-solid-svg-icons";
 
 const Banner = ({data}) => {
   
   return (
-    <article className="w-full flex flex-col items-center justify-center gap-y-4 pt-6 lg:gap-y-10 lg:mb-[45px]">
+    <article className="w-full flex flex-col items-center justify-center gap-y-4 lg:gap-y-10 lg:mb-[45px]">
       <CategoryNav
         iconMobile={
           <FontAwesomeIcon
@@ -27,7 +28,11 @@ const Banner = ({data}) => {
       />
       <BannerContainer
         bannerPosts={data}
-        sectionStyle={'w-full flex flex-col items-center justify-center gap-y-3 lg:gap-x-6 lg:flex-row lg:px-[150px]'}
+        sectionStyle={'w-full flex flex-col items-center justify-center gap-y-3 lg:gap-x-6 lg:flex-row lg:hidden'}
+      />
+      <SectionContainer 
+            dataPosts={data}
+            sectionStyle={'hidden flex-col gap-y-3 pt-10 lg:flex lg:flex-row lg:justify-center lg:h-[728px] lg:items-center lg:gap-x-6 lg:px-[150px]'} 
       />
     </article>
   )
