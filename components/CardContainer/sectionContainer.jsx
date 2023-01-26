@@ -9,7 +9,7 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
         <Card
             cardComponent={{
                 path : dataPosts[0].link,
-                style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[554px] lg:h-[728px] lg:p-4 lg:gap-y-4 lg:rounded-[20px] lg:flex-col lg:col-start-1',
+                style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[554px] lg:h-[728px] lg:p-4 lg:gap-y-4 lg:rounded-[20px] lg:flex-col',
                 imgComponent : {
                     containerStyle : 'w-[96px] flex items-center justify-center rounded-[12px] shadow-md h-[96px] lg:h-[398px] lg:rounded-[16px] lg:w-full',
                     style : 'w-[90px] h-[90px] aspect-auto object-contain lg:w-3/4 lg:h-3/4',
@@ -58,7 +58,7 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
             />
             }
         />
-        <div className="flex flex-col gap-y-3 justify-start pb-3 items-start lg:grid lg:gap-x-10 lg:grid-cols-2 lg:grid-rows-2 lg:w-[554px] lg:h-[750px]">
+        <div className="flex flex-col gap-y-3 justify-start pb-3 items-start lg:grid lg:gap-x-[30px] lg:grid-cols-2 lg:grid-rows-2 lg:w-[554px] lg:h-[750px]">
             <Card
                 cardComponent={{
                     path : dataPosts[1].link,
