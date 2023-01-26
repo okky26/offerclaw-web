@@ -27,7 +27,7 @@ const Pets = ({data}) => {
         />
         <SectionContainer 
             dataPosts={data}
-            sectionStyle={'flex flex-col gap-y-3 pt-10 lg:flex-row lg:justify-center lg:h-[728px] lg:items-center lg:gap-x-6'} 
+            sectionStyle={'w-full flex-col gap-y-3 lg:flex lg:flex-row lg:justify-center lg:items-center'} 
         />
     </article>
   )
