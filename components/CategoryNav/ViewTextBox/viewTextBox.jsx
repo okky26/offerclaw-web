@@ -4,7 +4,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const ViewTextBox = ({path}) => {
     return(
-        <div className="w-fit flex items-center justify-end gap-x-3 lg:py-2 lg:px-4 lg:bg-white lg:shadow-xl lg:rounded-xl lg:border-[1px] lg:border-primary-post-cat ">
+        <div className="w-fit flex items-center justify-end gap-x-3 lg:py-1 lg:px-4 lg:bg-white lg:shadow-xl lg:rounded-xl lg:border-[1px] lg:border-primary-post-cat ">
             <Link
                 href={path}
                 className='flex items-center justify-center font-sans-serif font-normal text-lg text-neutral-800 capitalize lg:text-lg'
