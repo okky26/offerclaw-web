@@ -27,7 +27,7 @@ const Other = ({data}) => {
         />
         <SectionContainer 
             dataPosts={data}
-            sectionStyle={'flex flex-col gap-y-3 lg:flex-row lg:justify-center lg:items-center lg:gap-x-6 lg:px-[150px]'} 
+            sectionStyle={'flex flex-col gap-y-3 lg:flex-row lg:justify-center lg:items-center lg:gap-x-6'} 
         />
     </article>
   )
