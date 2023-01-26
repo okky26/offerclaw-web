@@ -32,7 +32,7 @@ const Banner = ({data}) => {
       />
       <SectionContainer 
             dataPosts={data}
-            sectionStyle={'hidden w-full flex-col gap-y-3 lg:flex lg:flex-row lg:justify-center lg:h-[728px] lg:items-center lg:gap-x-7'} 
+            sectionStyle={'hidden w-full flex-col gap-y-3 lg:flex lg:flex-row lg:justify-center lg:h-[728px] lg:items-center lg:gap-x-10'} 
       />
     </article>
   )
