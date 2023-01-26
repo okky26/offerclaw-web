@@ -15,7 +15,7 @@ const SearchBar = () => {
                 />
                 <Button
                     type={'submit'}
-                    style={'w-8 h-8 absolute right-[5%] lg:right-[31%]'}
+                    style={'w-8 h-8 absolute right-[5%] lg:right-[30%]'}
                     content={
                         <FontAwesomeIcon
                             icon={faMagnifyingGlass}

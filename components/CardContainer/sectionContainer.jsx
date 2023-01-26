@@ -134,7 +134,7 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
             <Card
                 cardComponent={{
                     path : dataPosts[3].link,
-                    style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[545px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[95px] lg:gap-x-6',
+                    style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[543px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[95px] lg:gap-x-6',
                     imgComponent : {
                         containerStyle : 'w-[96px] flex items-center justify-center rounded-[12px] shadow-md h-[96px] lg:h-[223px] lg:w-[223px]',
                         style : 'w-[90px] h-[90px] aspect-auto object-contain lg:w-3/4 lg:h-3/4',

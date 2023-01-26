@@ -20,7 +20,7 @@ const WebTitle = ({handler,btnStyle}) => {
             />
             <Link
             href={'/'}
-            className={`mx-auto font-sans-serif text-3xl font-bold text-primary lg:text-6xl`}
+            className={`mx-auto font-sans-serif text-3xl font-bold text-primary lg:text-[64px]`}
             >
                 OFFERCLAW
             </Link>
