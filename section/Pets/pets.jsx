@@ -6,7 +6,7 @@ import { faDog } from "@fortawesome/free-solid-svg-icons";
 const Pets = ({data}) => {
 
   return (
-    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6 lg:px-0">
+    <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6 lg:px-0 lg:gap-y-10">
         <CategoryNav
             iconMobile={
               <FontAwesomeIcon

@@ -7,7 +7,7 @@ const Layout = ({children}) => {
             <header>
                 <Header/>
             </header>
-            <main className="bg-primary">
+            <main className="bg-primary px-6 lg:px-0 lg:flex lg:flex-col lg:gap-y-[44px]">
                 {children}
             </main>
             <footer>

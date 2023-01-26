@@ -12,7 +12,8 @@ module.exports = {
         'primary-img' : '#2F343E',
         'primary-cat' : '#F5F8FB',
         'primary-post-cat' : '#a8bde6',
-        'primary-text' : '#2F343E'
+        'primary-text' : '#2F343E',
+        'nav' : '#F2E5C0'
       },
       fontFamily : {
         'sans-serif' : ['Inter', 'sans-serif'],

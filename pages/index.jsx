@@ -10,7 +10,6 @@ import { getPostData } from "@/utils/getDataPost";
 const Home = ({bannerData,techData,healthData,homeData,outdoorData,petsData,otherData}) => {
     const banner = bannerData
 
-    console.log(petsData)
     
     return(
         <>

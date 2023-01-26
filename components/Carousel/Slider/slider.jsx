@@ -83,7 +83,7 @@ const Slider = (data) => {
       <Card
         cardComponent={{
             path : post[3].link,
-            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[555px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[110px] lg:gap-x-6',
+            style : 'flex flex-col items-start justify-start gap-y-3 bg-white rounded-[16px] h-[318px] w-[215px] p-3 lg:w-[550px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[110px] lg:gap-x-6',
             imgComponent : {
                 containerStyle : 'w-full flex items-center justify-center rounded-[12px] shadow-md h-[190px] lg:h-[223px] lg:w-[223px]',
                 style : 'w-1/2 aspect-auto object-cover',

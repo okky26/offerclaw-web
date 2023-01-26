@@ -7,7 +7,7 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 const BannerContainer = ({sectionStyle,bannerPosts}) => {
 
   return (
-    <section className={sectionStyle}>
+    <section className={`${sectionStyle}`}>
         <Card
             cardComponent={{
                 path : bannerPosts[0].link,

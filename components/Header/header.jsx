@@ -12,7 +12,7 @@ const Header = () => {
 
     return(
         <>
-            <section className="w-full h-[20vh] bg-header bg-cover px-6 py-8 flex flex-col items-center justify-center gap-y-4 lg:h-[460px] lg:gap-y-14">
+            <section className="w-full h-[20vh] bg-header bg-cover bg-center px-6 py-8 flex flex-col items-center justify-center gap-y-4 lg:h-[366px] lg:gap-y-14">
                 <WebTitle
                     handler={toggleHandler}
                 />

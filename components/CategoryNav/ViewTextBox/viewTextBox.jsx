@@ -4,10 +4,10 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const ViewTextBox = ({path}) => {
     return(
-        <div className="w-fit flex items-center justify-end gap-x-3 lg:p-2 lg:bg-white lg:shadow-xl lg:rounded-xl lg:border-[1px] lg:border-primary-post-cat ">
+        <div className="w-fit flex items-center justify-end gap-x-3 lg:py-2 lg:px-4 lg:bg-white lg:shadow-xl lg:rounded-xl lg:border-[1px] lg:border-primary-post-cat ">
             <Link
                 href={path}
-                className='flex items-center justify-center font-sans-serif font-normal text-lg text-neutral-800 capitalize lg:text-2xl'
+                className='flex items-center justify-center font-sans-serif font-normal text-lg text-neutral-800 capitalize lg:text-lg'
             >
                 view all
             </Link>
@@ -21,7 +21,7 @@ const ViewTextBox = ({path}) => {
             <div className="h-full hidden items-center justify-center lg:flex">
                 <FontAwesomeIcon
                     icon={faChevronRight}
-                    size='xl'
+                    size='sm'
                     color='black'
                 />
             </div>
