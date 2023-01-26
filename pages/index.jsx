@@ -5,14 +5,18 @@ import HomeEss from "@/section/Home/home";
 import Outdoor from "@/section/Outdoor/outdoor";
 import Pets from "@/section/Pets/pets";
 import Other from "@/section/Other/other";
+import Head from "next/head";
 import { getPostData } from "@/utils/getDataPost";
 
 const Home = ({bannerData,techData,healthData,homeData,outdoorData,petsData,otherData}) => {
     const banner = bannerData
 
-    
     return(
         <>
+            <Head>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            </Head> 
+
            <Banner
                 data={banner}
            />
