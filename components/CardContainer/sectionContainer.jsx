@@ -5,14 +5,14 @@ import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 const SectionContainer = ({sectionStyle, dataPosts}) => {
   return (
-    <section className={`${sectionStyle} lg:px-[150px]`}>
+    <section className={`${sectionStyle} lg:px-[150px] lg:h-[728px] lg:gap-x-[30px] `}>
         <Card
             cardComponent={{
                 path : dataPosts[0].link,
                 style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[554px] lg:h-[728px] lg:p-4 lg:gap-y-4 lg:rounded-[20px] lg:flex-col',
                 imgComponent : {
                     containerStyle : 'w-[96px] flex items-center justify-center rounded-[12px] shadow-md h-[96px] lg:h-[398px] lg:rounded-[16px] lg:w-full',
-                    style : 'w-[90px] h-[90px] aspect-auto object-contain lg:w-3/4 lg:h-3/4',
+                    style : 'w-[90px] h-[90px] aspect-auto object-contain lg:w-[451px] lg:h-[302px]',
                     content : dataPosts[0]._embedded['wp:featuredmedia'][0].source_url
                 },
                 contentComponent : {
@@ -26,7 +26,7 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
                     },
                     titleComponent : {
                         containerStyle : 'w-full flex items-center justify-start',
-                        style : 'w-fit font-sans-serif font-bold capitalize text-neutral-800 text-sm lg:text-4xl',
+                        style : 'w-fit font-sans-serif font-bold capitalize text-neutral-800 text-sm lg:text-2xl',
                         content : dataPosts[0].title.rendered
                     },
                     excerptComponent : {
@@ -58,13 +58,13 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
             />
             }
         />
-        <div className="flex flex-col gap-y-3 justify-start pb-3 items-start lg:grid lg:gap-x-[30px] lg:grid-cols-2 lg:grid-rows-2 lg:w-[554px] lg:h-[750px]">
+        <div className="flex flex-col gap-y-3 justify-start pb-3 items-start lg:grid lg:gap-x-[30px] lg:gap-y-[22px] lg:grid-cols-card lg:grid-rows-card lg:w-[554px] lg:h-[728px]">
             <Card
                 cardComponent={{
                     path : dataPosts[1].link,
-                    style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[262px] lg:h-[451px] lg:p-4 lg:flex-col',
+                    style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-full lg:h-full lg:p-4 lg:flex-col',
                     imgComponent : {
-                        containerStyle : 'w-[96px] flex items-center justify-center rounded-[12px] shadow-md h-[96px] lg:h-[230px] lg:w-full lg:rounded-[16px]',
+                        containerStyle : 'w-[96px] flex items-center justify-center rounded-[12px] shadow-md h-[96px] lg:h-[230px] lg:w-[230px] lg:rounded-[16px]',
                         style : 'w-[90px] h-[90px] aspect-auto object-contain lg:w-3/4 lg:h-3/4',
                         content : dataPosts[1]._embedded['wp:featuredmedia'][0].source_url
                     },
@@ -134,7 +134,7 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
             <Card
                 cardComponent={{
                     path : dataPosts[3].link,
-                    style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[543px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:mt-[95px] lg:gap-x-6',
+                    style : 'flex flex-row-reverse items-start justify-between gap-y-1 bg-white rounded-[16px] h-[120px] p-3 w-full lg:w-[554px] lg:h-[255px] lg:p-4 lg:col-start-1 lg:row-start-2 lg:flex-row lg:gap-x-6',
                     imgComponent : {
                         containerStyle : 'w-[96px] flex items-center justify-center rounded-[12px] shadow-md h-[96px] lg:h-[223px] lg:w-[223px]',
                         style : 'w-[90px] h-[90px] aspect-auto object-contain lg:w-3/4 lg:h-3/4',

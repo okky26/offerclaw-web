@@ -6,6 +6,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns : {
+        'card' : 'repeat(2,262px)'
+      },
+      gridTemplateRows : {
+        'card' : '451px 255px'
+      },
       colors : {
         'primary-head' : '#202226',
         'primary' : '#F1F2F8',
