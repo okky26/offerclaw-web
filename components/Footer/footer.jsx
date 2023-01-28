@@ -17,8 +17,8 @@ const Footer = () => {
                 btnStyle={'hidden'}
                 fontWeight={'font-normal'}
             />
-            <p className="w-3/4 text-neutral-50 font-mulish font-medium text-2xl text-center lg:text-3xl lg:w-1/2">
-                You may earn a commission for purchase made through our links.
+            <p className="w-3/4 text-neutral-50 font-mulish font-medium capitalize text-2xl text-center lg:text-3xl lg:w-1/2">
+                we may earn a commission for purchase made through our links.
             </p>
             <div className="w-full lg:px-[145px]">
                 <NavLink
