@@ -15,9 +15,7 @@ const Navbar = ({handler,conditionalStyle}) => {
                 handler={handler}
             />
             <NavLink
-                iconColor={'black'}
                 textColor={'text-neutral-800'}
-                iconSize={'sm'}
                 textSize={'text-2xl'}
                 containerHeight={'h-[75vh]'}
                 icon={{

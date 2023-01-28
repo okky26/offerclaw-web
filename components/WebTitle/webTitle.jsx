@@ -3,7 +3,7 @@ import Button from "../Button/button"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 
-const WebTitle = ({handler,btnStyle}) => {
+const WebTitle = ({handler,btnStyle,fontWeight}) => {
     return(
         <section className="w-full flex items-center sm:h-auto">
             <Button
@@ -20,7 +20,7 @@ const WebTitle = ({handler,btnStyle}) => {
             />
             <Link
             href={'/'}
-            className={`mx-auto font-sans-serif text-3xl font-bold text-primary lg:text-[64px]`}
+            className={`mx-auto font-sans-serif text-3xl ${fontWeight} text-primary lg:text-[64px]`}
             >
                 OFFERCLAW
             </Link>
