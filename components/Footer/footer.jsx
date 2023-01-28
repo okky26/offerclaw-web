@@ -12,12 +12,12 @@ import HouseIcon from "public/WhiteIcon/house-white.svg";
 
 const Footer = () => {
     return(
-        <section className="w-full h-screen bg-footer bg-cover bg-right lg:bg-center flex flex-col items-center justify-around lg:justify-center lg:gap-y-10 lg:h-[540px]">
+        <section className="w-full h-screen bg-footer bg-cover bg-right lg:bg-center flex flex-col items-center justify-around lg:justify-center lg:pt-3 lg:gap-y-12 lg:h-[540px]">
             <WebTitle
                 btnStyle={'hidden'}
                 fontWeight={'font-normal'}
             />
-            <p className="w-3/4 text-neutral-50 font-mulish font-medium capitalize text-2xl text-center lg:text-3xl lg:w-1/2">
+            <p className="w-3/4 text-neutral-50 font-mulish font-medium capitalize text-xl text-center lg:text-2xl lg:w-1/2">
                 we may earn a commission for purchase made through our links.
             </p>
             <div className="w-full lg:px-[145px]">
