@@ -1,27 +1,14 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav"
 import SectionContainer from "@/components/CardContainer/sectionContainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBlender } from "@fortawesome/free-solid-svg-icons";
+import TechIcon from 'public/BlackIcon/tech-black.svg';
+
 
 const Tech = ({data}) => {
 
   return (
     <article className="w-full flex flex-col items-center justify-center gap-y-4 px-6 pt-6 lg:px-0">
         <CategoryNav
-            iconMobile={
-              <FontAwesomeIcon
-                icon={faBlender}
-                size='lg'
-                color="black"
-              />
-            }
-            iconDesktop={
-              <FontAwesomeIcon
-                icon={faBlender}
-                size='2x'
-                color="black"
-              />
-            }
+            icon={TechIcon}
             category={'Tech'}
             path='/Categories/Tech'
         />

@@ -1,27 +1,13 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav"
 import SectionContainer from "@/components/CardContainer/sectionContainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import HealthIcon from "public/BlackIcon/personal-black.svg";
 
 const Health = ({data}) => {
     
   return (
     <article className="w-full flex flex-col items-center justify-center gap-y-4  lg:gap-y-10">
         <CategoryNav
-            iconMobile={
-              <FontAwesomeIcon
-                icon={faUser}
-                size='lg'
-                color="black"
-              />
-            }
-            iconDesktop={
-              <FontAwesomeIcon
-                icon={faUser}
-                size='2x'
-                color="black"
-              />
-            }
+            icon={HealthIcon}
             category={'Health & Wellnes'}
             path='/Categories/Health'
         />

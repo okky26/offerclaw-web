@@ -23,7 +23,9 @@ module.exports = {
       },
       fontFamily : {
         'sans-serif' : ['Inter', 'sans-serif'],
-        'gothic' : ['GOTHICB', 'sans-serif']
+        'gothic' : ['GOTHICB', 'sans-serif'],
+        'poppins' : ['Poppins', 'sans-serif'],
+        'mulish' : ['Mulish', 'sans-serif']
       },
       backgroundImage : {
         'header' : 'url(../public/Img/Header.png)',

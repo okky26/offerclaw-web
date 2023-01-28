@@ -1,5 +1,12 @@
-import NavHead from "./NavHead/navHead"
-import NavLink from "@/components/NavLink/navLink"
+import NavHead from "./NavHead/navHead";
+import NavLink from "@/components/NavLink/navLink";
+import TechIcon from "public/BlackIcon/tech-black.svg";
+import HealthIcon from "public/BlackIcon/personal-black.svg";
+import ApplianceIcon from "public/BlackIcon/appliances-black.svg";
+import OutdoorIcon from "public/BlackIcon/outdoor-black.svg";
+import PetsIcon from "public/BlackIcon/pets-black.svg";
+import OtherIcon from "public/BlackIcon/other-black.svg";
+import HouseIcon from "public/BlackIcon/house-black.svg";
 
 const Navbar = ({handler,conditionalStyle}) => {
     return(
@@ -13,6 +20,15 @@ const Navbar = ({handler,conditionalStyle}) => {
                 iconSize={'sm'}
                 textSize={'text-2xl'}
                 containerHeight={'h-[75vh]'}
+                icon={{
+                    tech : TechIcon,
+                    health : HealthIcon,
+                    appliances : ApplianceIcon,
+                    outdoor : OutdoorIcon,
+                    pets : PetsIcon,
+                    other : OtherIcon,
+                    home : HouseIcon
+                }}
             />
         </nav>
     )

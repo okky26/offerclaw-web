@@ -58,7 +58,7 @@ const SectionContainer = ({sectionStyle, dataPosts}) => {
             />
             }
         />
-        <div className="flex flex-col gap-y-3 justify-start pb-3 items-start lg:grid lg:gap-x-[30px] lg:gap-y-[22px] lg:grid-cols-card lg:grid-rows-card lg:w-[554px] lg:h-[728px]">
+        <div className="flex flex-col gap-y-3 justify-start mt-3 pb-3 items-start lg:grid lg:gap-x-[30px] lg:gap-y-[22px] lg:grid-cols-card lg:grid-rows-card lg:w-[554px] lg:h-[728px]">
             <Card
                 cardComponent={{
                     path : dataPosts[1].link,

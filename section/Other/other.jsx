@@ -1,27 +1,14 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav"
 import SectionContainer from "@/components/CardContainer/sectionContainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRandom } from "@fortawesome/free-solid-svg-icons";
+import OtherIcon from "public/BlackIcon/other-black.svg";
+
 
 const Other = ({data}) => {
 
   return (
     <article className="w-full flex flex-col items-center justify-center gap-y-4 lg:gap-y-10">
         <CategoryNav
-            iconMobile={
-              <FontAwesomeIcon
-                icon={faRandom}
-                size='lg'
-                color="black"
-              />
-            }
-            iconDesktop={
-              <FontAwesomeIcon
-                icon={faRandom}
-                size='2x'
-                color="black"
-              />
-            }
+            icon={OtherIcon}
             category={'Other'}
             path='/Categories/Other'
         />

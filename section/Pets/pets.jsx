@@ -1,27 +1,14 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav"
 import SectionContainer from "@/components/CardContainer/sectionContainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDog } from "@fortawesome/free-solid-svg-icons";
+import PetsIcon from 'public/BlackIcon/pets-black.svg';
+
 
 const Pets = ({data}) => {
 
   return (
     <article className="w-full flex flex-col items-center justify-center gap-y-4 lg:gap-y-10">
         <CategoryNav
-            iconMobile={
-              <FontAwesomeIcon
-                icon={faDog}
-                size='lg'
-                color="black"
-              />
-            }
-            iconDesktop={
-              <FontAwesomeIcon
-                icon={faDog}
-                size='2x'
-                color="black"
-              />
-            }
+            icon={PetsIcon}
             category={'Pets'}
             path='/Categories/Pets'
         />

@@ -1,28 +1,14 @@
 import CategoryNav from "@/components/CategoryNav/categoryNav";
 import BannerContainer from "@/components/CardContainer/bannerContainer";
 import SectionContainer from "@/components/CardContainer/sectionContainer";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFire } from "@fortawesome/free-solid-svg-icons";
+import FireIcon from 'public/fire.svg'
 
 const Banner = ({data}) => {
   
   return (
     <article className="w-full flex flex-col items-center justify-center gap-y-4 lg:gap-y-10 lg:mb-[45px]">
       <CategoryNav
-        iconMobile={
-          <FontAwesomeIcon
-            icon={faFire}
-            size='lg'
-            color="black"
-          />
-        }
-        iconDesktop={
-          <FontAwesomeIcon
-            icon={faFire}
-            size='2x'
-            color="black"
-          />
-        }
+        icon={FireIcon}
         category={'featured post'}
         path='/featuredPost'
       />
